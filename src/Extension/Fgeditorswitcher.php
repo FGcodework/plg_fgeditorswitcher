@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /**
  * @package       Joomla.Plugin
  * @subpackage    Editors.fgeditorswitcher
@@ -8,7 +8,7 @@
  * @license       https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
  *
  * @author        Fero
- * @link          https://ferino75.github.io/
+ * @link          https://FGcodework.github.io/
  *
  * Implementation notes (the "why" behind a few non-obvious decisions):
  *  - Nothing is resolved in the constructor. PluginHelper::importPlugin('editors')

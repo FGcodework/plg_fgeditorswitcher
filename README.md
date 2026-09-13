@@ -1,12 +1,12 @@
-<img src="assets/logo.png" alt="FG Editor Switcher logo" width="96" height="96">
+﻿<img src="assets/logo.png" alt="FG Editor Switcher logo" width="96" height="96">
 
 # FG Editor Switcher
 
-![Version](https://img.shields.io/github/v/release/ferino75/plg_fgeditorswitcher?label=version)
+![Version](https://img.shields.io/github/v/release/FGcodework/plg_fgeditorswitcher?label=version)
 ![Joomla](https://img.shields.io/badge/Joomla-4%20%7C%205%20%7C%206-orange.svg)
 ![PHP](https://img.shields.io/badge/PHP-7.4%2B-777bb4.svg)
 ![License](https://img.shields.io/badge/license-GPL--2.0-brightgreen.svg)
-![Downloads](https://img.shields.io/github/downloads/ferino75/plg_fgeditorswitcher/total?cacheSeconds=3600)
+![Downloads](https://img.shields.io/github/downloads/FGcodework/plg_fgeditorswitcher/total?cacheSeconds=3600)
 
 A Joomla editor plugin that lets you switch which editor (TinyMCE, CodeMirror,
 None, JCE, ...) is used for editing fields, directly from a dropdown placed
@@ -39,7 +39,7 @@ More/...) - without going through Global Configuration.
 ## Installation
 
 1. Download the latest release ZIP from the
-   [Releases](https://github.com/ferino75/plg_fgeditorswitcher/releases) page.
+   [Releases](https://github.com/FGcodework/plg_fgeditorswitcher/releases) page.
 2. Install it via Joomla's Extensions → Manage → Install.
 3. Enable the plugin under **Plugins → FG Editor Switcher**, and set your
    preferred default editor and other options.

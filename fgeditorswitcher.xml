@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <extension type="plugin" version="4.0" group="editors" method="upgrade">
 	<name>plg_editors_fgeditorswitcher</name>
 	<version>2.3.0</version>
 	<author>Fero</author>
 	<authorEmail>ferino@atlas.sk</authorEmail>
-	<authorUrl>https://ferino75.github.io/</authorUrl>
+	<authorUrl>https://FGcodework.github.io/</authorUrl>
 	<creationDate>August 2026</creationDate>
 	<copyright>(C) 2026 Fero</copyright>
 	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
@@ -52,6 +52,6 @@
 
 	<!-- Update servers -->
 	<updateservers>
-		<server type="extension" priority="1" name="FG Editor Switcher">https://raw.githubusercontent.com/ferino75/plg_fgeditorswitcher/master/updates.xml</server>
+		<server type="extension" priority="1" name="FG Editor Switcher">https://raw.githubusercontent.com/FGcodework/plg_fgeditorswitcher/master/updates.xml</server>
 	</updateservers>
 </extension>

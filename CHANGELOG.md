@@ -1,4 +1,4 @@
-# Changelog — FG Editor Switcher (plg_fgeditorswitcher)
+﻿# Changelog — FG Editor Switcher (plg_fgeditorswitcher)
 
 ## 2.3.0 — Content survives the switch, and the page stops being assumed static
 
@@ -414,7 +414,7 @@ differences from it are listed at the end of this section.
   moved to `FG\Plugin\Editors\Fgeditorswitcher`, class renamed to
   `Fgeditorswitcher`.
 - Author/copyright metadata updated (Fero); update server pointed at
-  `ferino75/plg_fgeditorswitcher` on GitHub.
+  `FGcodework/plg_fgeditorswitcher` on GitHub.
 - Cookie renamed to `fgeditorswitchercurrent`; all HTML element ids/JS/CSS
   selectors renamed to the `fgeditorswitcher` prefix.
 - Language files consolidated to `en-GB` + `sk-SK` (the outdated third-party
