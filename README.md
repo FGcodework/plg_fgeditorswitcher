@@ -1,4 +1,4 @@
-﻿<img src="assets/logo.png" alt="FG Editor Switcher logo" width="96" height="96">
+<img src="assets/logo.png" alt="FG Editor Switcher logo" width="96" height="96">
 
 # FG Editor Switcher
 

@@ -1,4 +1,13 @@
-﻿# Changelog — FG Editor Switcher (plg_fgeditorswitcher)
+# Changelog — FG Editor Switcher (plg_fgeditorswitcher)
+
+## 2.3.2 — Removed UTF-8 BOM from several files
+- The JED submission checker flagged a byte-order mark (BOM) at the start of
+  `src/Extension/Fgeditorswitcher.php` ("The byte order mark (BOM) is
+  detected. Please, save the file in the 'UTF-8 without BOM' format").
+  Checking the whole repo turned up four more files with the same issue:
+  `README.md`, `updates.xml`, `CHANGELOG.md` and `fgeditorswitcher.xml`
+  (likely introduced by a Windows editor/tool saving as "UTF-8" with a BOM
+  by default). Stripped the BOM from all five - no other content changed.
 
 ## 2.3.1 — JED-compliant extension name
 - The manifest's `<name>` tag didn't follow JED's required `{Type} - {Extension
