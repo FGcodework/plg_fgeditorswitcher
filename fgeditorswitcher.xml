@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <extension type="plugin" version="4.0" group="editors" method="upgrade">
-	<name>plg_editors_fgeditorswitcher</name>
-	<version>2.3.0</version>
+	<name>Editor - FG Editor Switcher</name>
+	<version>2.3.1</version>
 	<author>Fero</author>
 	<authorEmail>ferino@atlas.sk</authorEmail>
 	<authorUrl>https://FGcodework.github.io/</authorUrl>
@@ -52,6 +52,6 @@
 
 	<!-- Update servers -->
 	<updateservers>
-		<server type="extension" priority="1" name="FG Editor Switcher">https://raw.githubusercontent.com/FGcodework/plg_fgeditorswitcher/master/updates.xml</server>
+		<server type="extension" priority="1" name="Editor - FG Editor Switcher">https://raw.githubusercontent.com/FGcodework/plg_fgeditorswitcher/master/updates.xml</server>
 	</updateservers>
 </extension>

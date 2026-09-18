@@ -1,5 +1,18 @@
 ﻿# Changelog — FG Editor Switcher (plg_fgeditorswitcher)
 
+## 2.3.1 — JED-compliant extension name
+- The manifest's `<name>` tag didn't follow JED's required `{Type} - {Extension
+  Name}` naming convention (flagged by the JED submission checker). Changed
+  from `plg_editors_fgeditorswitcher` to `Editor - FG Editor Switcher`,
+  matching how Joomla's own core editors are named ("Editor - TinyMCE",
+  "Editor - None") and how the original third-party plugin this was forked
+  from was named ("Editor - Switcher").
+- The `PLG_EDITORS_FGEDITORSWITCHER` language string (en-GB: "FG Editor
+  Switcher", sk-SK: "FG Prepínač editora") and the `<name>` in `updates.xml`/
+  the `<updateservers>` entry were updated to match, so the title is
+  consistent everywhere it's shown (Plugin Manager, Find Updates screen, JED
+  listing).
+
 ## 2.3.0 — Content survives the switch, and the page stops being assumed static
 
 This release was developed by Perplexity AI (given the full v2.2.2 source and
