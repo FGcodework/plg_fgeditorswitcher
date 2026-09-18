@@ -41,7 +41,7 @@ More/...) - without going through Global Configuration.
 1. Download the latest release ZIP from the
    [Releases](https://github.com/FGcodework/plg_fgeditorswitcher/releases) page.
 2. Install it via Joomla's Extensions → Manage → Install.
-3. Enable the plugin under **Plugins → FG Editor Switcher**, and set your
+3. Enable the plugin under **Plugins → Editor - FG Editor Switcher**, and set your
    preferred default editor and other options.
 4. In **System → Global Configuration → Site → Default Editor**, select
    **FG Editor Switcher** as the site's default editor.
