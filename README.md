@@ -1,12 +1,17 @@
-<img src="assets/logo.png" alt="FG Editor Switcher logo" width="96" height="96">
+<p align="center">
+  <img src="assets/logo.png" alt="plg_fgeditorswitcher logo" width="128" height="128">
+</p>
 
-# FG Editor Switcher
+<h1 align="center">FG Editor Switcher for Joomla</h1>
 
-![Version](https://img.shields.io/github/v/release/FGcodework/plg_fgeditorswitcher?label=version)
-![Joomla](https://img.shields.io/badge/Joomla-4%20%7C%205%20%7C%206-orange.svg)
-![PHP](https://img.shields.io/badge/PHP-7.4%2B-777bb4.svg)
-![License](https://img.shields.io/badge/license-GPL--2.0-brightgreen.svg)
-![Downloads](https://img.shields.io/github/downloads/FGcodework/plg_fgeditorswitcher/total?cacheSeconds=3600)
+<p align="center">
+  <img src="https://img.shields.io/github/v/release/FGcodework/plg_fgeditorswitcher?color=FF6B4A&label=release" alt="Latest release">
+  <img src="https://img.shields.io/badge/Joomla-4%20%7C%205%20%7C%206-blue.svg?logo=joomla&logoColor=white" alt="Joomla">
+  <img src="https://img.shields.io/badge/PHP-7.4%2B-purple.svg?logo=php&logoColor=white" alt="PHP">
+  <a href="https://extensions.joomla.org/extension/edition/editor-buttons/fg-editor-switcher/"><img src="https://img.shields.io/badge/Joomla!%20Extensions%20Directory%E2%84%A2-EditorSwitcher-blue" alt="JED"></a>
+  <img src="https://img.shields.io/badge/license-GPL--2.0-green.svg" alt="License">
+  <img src="https://img.shields.io/github/downloads/FGcodework/plg_fgeditorswitcher/total?cacheSeconds=3600" alt="Downloads">
+</p>
 
 A Joomla editor plugin that lets you switch which editor (TinyMCE, CodeMirror,
 None, JCE, ...) is used for editing fields, directly from a dropdown placed
