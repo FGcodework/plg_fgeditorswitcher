@@ -11,6 +11,7 @@
   <a href="https://extensions.joomla.org/extension/edition/editor-buttons/fg-editor-switcher/"><img src="https://img.shields.io/badge/Joomla!%20Extensions%20Directory%E2%84%A2-EditorSwitcher-blue" alt="JED"></a>
   <img src="https://img.shields.io/badge/license-GPL--2.0-green.svg" alt="License">
   <img src="https://img.shields.io/github/downloads/FGcodework/plg_fgeditorswitcher/total?cacheSeconds=3600" alt="Downloads">
+  <a href="https://ko-fi.com/FGcodework"><img src="https://img.shields.io/badge/support-Ko--fi-F16061.svg?logo=ko-fi&logoColor=white" alt="Support on Ko-fi"></a>
 </p>
 
 A Joomla editor plugin that lets you switch which editor (TinyMCE, CodeMirror,
@@ -56,6 +57,15 @@ More/...) - without going through Global Configuration.
 This plugin ships with a Joomla update server pointing at this repository's
 `updates.xml`, so new releases are offered automatically through Joomla's
 Extension Manager once installed.
+
+## Support this project
+
+This plugin is free, open source, and always will be — no feature is locked
+behind a paywall. If it's saved you time or a trip through Global
+Configuration, you can leave a one-off tip on Ko-fi. Entirely optional
+either way.
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/C3Q327JDVM)
 
 ## License
 

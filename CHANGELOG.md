@@ -1,5 +1,11 @@
 # Changelog — FG Editor Switcher (plg_fgeditorswitcher)
 
+## 2.3.3 — Added a "Plugin" info tab and Ko-fi support links
+The admin plugin edit screen now has a "Plugin" tab (name, description, a
+"Support this plugin" note with Ko-fi/website links) alongside the existing
+settings, now on their own "Settings" tab. Added a Ko-fi badge and a
+"Support this project" section to the README.
+
 ## 2.3.2 — Removed UTF-8 BOM from five files
 Fixed a byte-order mark at the start of the PHP class file (flagged by the
 JED submission checker) plus four more affected files.
