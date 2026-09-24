@@ -1,5 +1,11 @@
 # Changelog — FG Editor Switcher (plg_fgeditorswitcher)
 
+## 2.3.4 — Extension display name no longer translated per-locale
+sk-SK's `PLG_EDITORS_FGEDITORSWITCHER` string ("Editor - FG Prepínač
+editora") now matches en-GB ("Editor - FG Editor Switcher"), per the FG
+series convention that the extension's display name stays identical across
+languages.
+
 ## 2.3.3 — Added a "Plugin" info tab and Ko-fi support links
 The admin plugin edit screen now has a "Plugin" tab (name, description, a
 "Support this plugin" note with Ko-fi/website links) alongside the existing
