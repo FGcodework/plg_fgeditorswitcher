@@ -1,5 +1,8 @@
 # Changelog — FG Editor Switcher (plg_fgeditorswitcher)
 
+## 2.3.5 — Redesigned the support block
+The "Plugin" tab's support note now shows a Ko-fi button and a "More FG Extensions" button under a short free/open-source statement; the separate "Support this plugin" heading was removed.
+
 ## 2.3.4 — Extension display name no longer translated per-locale
 sk-SK's `PLG_EDITORS_FGEDITORSWITCHER` string ("Editor - FG Prepínač
 editora") now matches en-GB ("Editor - FG Editor Switcher"), per the FG

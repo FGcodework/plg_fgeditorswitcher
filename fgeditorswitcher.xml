@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="plugin" version="4.0" group="editors" method="upgrade">
 	<name>Editor - FG Editor Switcher</name>
-	<version>2.3.4</version>
+	<version>2.3.5</version>
 	<author>Fero</author>
 	<authorEmail>ferino@atlas.sk</authorEmail>
 	<authorUrl>https://FGcodework.github.io/</authorUrl>
@@ -35,7 +35,6 @@
 				<field
 					name="support_note"
 					type="note"
-					label="PLG_EDITORS_FGEDITORSWITCHER_FIELD_SUPPORT_LABEL"
 					description="PLG_EDITORS_FGEDITORSWITCHER_FIELD_SUPPORT_DESC"
 				/>
 			</fieldset>
