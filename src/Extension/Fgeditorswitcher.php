@@ -2,7 +2,7 @@
 /**
  * @package       Joomla.Plugin
  * @subpackage    Editors.fgeditorswitcher
- * @version       2.3.2
+ * @version       2.3.6
  *
  * @copyright     (C) 2026 Fero
  * @license       https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
@@ -138,7 +138,7 @@ final class Fgeditorswitcher extends CMSPlugin
 	 * @var    string
 	 * @since  2.1.0
 	 */
-	private const VERSION = '2.3.2';
+	private const VERSION = '2.3.6';
 
 	/**
 	 * Editors preferred as a fallback, in order, when the requested editor is
@@ -636,8 +636,6 @@ final class Fgeditorswitcher extends CMSPlugin
 	 *
 	 * @param   string       $name     The control name.
 	 * @param   string       $content  The contents of the text area.
-	 * @param   string       $width    The width of the text area (px or %).
-	 * @param   string       $height   The height of the text area (px or %).
 	 * @param   integer      $col      The number of columns for the textarea.
 	 * @param   integer      $row      The number of rows for the textarea.
 	 * @param   string|null  $id       An optional ID for the textarea.
@@ -645,25 +643,14 @@ final class Fgeditorswitcher extends CMSPlugin
 	 * @return  string  HTML
 	 * @since   2.3.0
 	 */
-	private function getFallbackTextarea(string $name, string $content, string $width, string $height, int $col, int $row, ?string $id): string
+	private function getFallbackTextarea(string $name, string $content, int $col, int $row, ?string $id): string
 	{
-		$style = '';
-
-		if ($width !== '')
-		{
-			$style .= 'width:' . $width . ';';
-		}
-
-		if ($height !== '')
-		{
-			$style .= 'height:' . $height . ';';
-		}
-
+		// No style="" here either (see the class docblock): the width comes
+		// from Bootstrap's .form-control, the height from rows="".
 		return '<textarea name="' . $this->escape($name) . '"'
 			. ' id="' . $this->escape(($id !== null && $id !== '') ? $id : $name) . '"'
 			. ' cols="' . max(1, $col) . '" rows="' . max(1, $row) . '"'
 			. ' class="form-control"'
-			. ($style !== '' ? ' style="' . $this->escape($style) . '"' : '')
 			. '>' . htmlspecialchars($content, ENT_COMPAT, 'UTF-8') . '</textarea>';
 	}
 
@@ -715,8 +702,7 @@ final class Fgeditorswitcher extends CMSPlugin
 			// No editor plugin is usable at all - degrade to a plain textarea
 			// rather than rendering nothing. A switcher would be pointless
 			// here, since there is nothing to switch between.
-			return $this->getFallbackTextarea((string) $name, (string) $content, (string) $width,
-				(string) $height, (int) $col, (int) $row, $id);
+			return $this->getFallbackTextarea((string) $name, (string) $content, (int) $col, (int) $row, $id);
 		}
 
 		// The id the delegated editor will use for its <textarea>. Joomla's own

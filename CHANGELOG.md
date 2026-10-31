@@ -1,5 +1,8 @@
 # Changelog — FG Editor Switcher (plg_fgeditorswitcher)
 
+## 2.3.6 — Internal consistency fixes
+The internal version constant (used for asset cache-busting) had been left at 2.3.2 since that release; it now matches the manifest. The no-editor fallback textarea no longer renders an inline `style` attribute (CSP-safe); its height comes from `rows`, its width from `.form-control`.
+
 ## 2.3.5 — Redesigned the support block
 The "Plugin" tab's support note now shows a Ko-fi button and a "More FG Extensions" button under a short free/open-source statement; the separate "Support this plugin" heading was removed.
 
